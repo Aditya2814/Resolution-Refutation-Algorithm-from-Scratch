@@ -30,15 +30,15 @@ The algorithm employs resolution to determine whether a given query is entailed 
 3. **Input Format:**
     - Enter the number of formulas in the KB (n) and choose whether to display detailed steps (m).
     - For the next n lines, formulas should be entered in a certain format as given below
-	The following characters are used to denote different operators:
-	OR: |
-	AND: &
-	NOT: !
-	IMPLICATION: >
-	IFF (bidirectional): =
-	OPENING BRACKET: (
-	CLOSING BRACKET: )
-	For boolean literals, upper case letters of the alphabet are used (A, B, C …… Z).
+	The following characters are used to denote different operators: <br />
+	OR: | <br />
+	AND: & <br />
+	NOT: ! <br />
+	IMPLICATION: > <br />
+	IFF (bidirectional): = <br />
+	OPENING BRACKET: ( <br />
+	CLOSING BRACKET: ) <br />
+	For boolean literals, upper case letters of the alphabet are used (A, B, C …… Z). <br />
 
     - Input the query in the same format.
 
