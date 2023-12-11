@@ -9,6 +9,7 @@ Python scripts implement an automated theorem proving algorithm based on resolut
 The algorithm employs resolution to determine whether a given query is entailed by a knowledge base (KB) of logical formulas. Key components include:
 
 - Heuristic Functions: Evaluates the priority of clauses based on the total number of negations of literals in the KB.
+                     : Evaluates the priority of clauses based on the total number of literals in a clause.
 
 - Resolution Functions:
   - Checks if two clauses can be resolved.
