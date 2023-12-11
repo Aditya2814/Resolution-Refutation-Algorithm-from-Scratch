@@ -53,13 +53,13 @@ The algorithm employs resolution to determine whether a given query is entailed 
 
 (Open a terminal in the same folder)
 
-- python greedy.py
-- 4 0
-- P|(Q&(R>T))
-- P>R
-- Q>T
-- Q>(R=T)
-- R
-- (click enter to run)
-- 0
-- (0 is the output which indicates the query R is not entailed by KB)
+python greedy.py <br />
+4 0 <br />
+P|(Q&(R>T)) <br />
+P>R <br />
+Q>T <br />
+Q>(R=T) <br />
+R <br />
+(click enter to run) <br />
+0 <br />
+(0 is the output which indicates the query R is not entailed by KB) <br />
